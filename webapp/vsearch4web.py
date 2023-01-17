@@ -4,7 +4,7 @@ from vsearch import search4letters
 app = Flask(__name__)
 
 
-@app.route('/sear4', methods=['POST'])
+@app.route('/search4', methods=['POST'])
 def hello() -> str:
     return 'Hello world from Flask!'
 
