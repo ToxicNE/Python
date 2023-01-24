@@ -59,7 +59,14 @@ border-collapse:    collapse;
 td, th {
 border:             thin dotted gray;
 }
-
+a{
+color:black;
+}
+a:hover{
+color: white;
+transition: 0.5s;
+text-decoration: none;
+}
 /*** Inputs ***/
 input[type=text] {
   font-size:        115%;
@@ -72,7 +79,7 @@ input[type=submit] {
 
 }
 input[type=submit]:hover{
-background-color:red;
+background-color:tan;
 transition:1s;
 }
 select {
